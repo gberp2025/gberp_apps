@@ -1,0 +1,33 @@
+:root{
+    --main-color: #ff7513;
+    --second-color: #ffffff;
+    --third-color: #24c1e9;
+    --widget-bg: #d2f8d1 ;
+    --Page-bg: #ffff;
+}
+
+.btn.btn-primary {
+    background-color: var(--main-color);
+    color: var(--neutral);
+    white-space: nowrap;
+    --icon-stroke: currentColor;
+    --icon-fill-bg: var(--btn-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    background-color: var(--third-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+.navbar-light {
+    border-bottom: 1px solid #e2e2e2;
+    background: var(--main-color);
+}
+
+body {
+	font-size: 14px;
+	background-color: #8cabca;
+}
