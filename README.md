@@ -1,7 +1,22 @@
-## Gberp Apps
+## Install app
+use the following commands to install this app  
+First get it from this repo
 
-GB ERP
+```
+bench get-app modern_desk https://github.com/gberp2025/gberp_apps
+```
+add to your site
+```
+bench --site gberp install-app gberp_apps
+```
+start the frappe app
+```
+bench --site gberp clear-cache
+bench start
+```
 
-#### License
-
-mit
+## Uninstall app
+```
+bench --site gberp remove-from-installed-apps gberp_apps
+bench remove-app gberp_apps 
+```
