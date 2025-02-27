@@ -6,8 +6,8 @@ app_email = "erp@mail.gbforestry.com"
 app_license = "mit"
 
 app_include_css = "/assets/gberp_apps/css/custom.css"
-
-web_include_css  = "/assets/gberp_apps/css/custom_login.css"
+web_include_css = "/assets/gberp_apps/css/custom_login.css"
+app_include_js  = "/assets/gberp_apps/js/item_list.js"
 
 # Apps
 # ------------------

@@ -19,7 +19,11 @@ bench start
 ## Update Apps
 ```
 bench get-app gberp_apps https://github.com/gberp2025/gberp_apps
+bench build
 bench --site gberp migrate  
+bench --site gberp clear-cache
+bench restart
+
 
 ## Uninstall app
 ```
